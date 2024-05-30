@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/bezuide3/bibliotheca
+    - export DEPLOYPATH=/home/qfpuksur/public_html/girokoco.com
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp *.* $DEPLOYPATH
